@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  cashmanflaskproject:
+    image: cashmanflaskproject
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+    volumes: 
+      - ./:/usr/src/app
+
+
+# version: '3.4'
+
+# services:
+#   cashmanflaskproject:
+#     image: cashmanflaskproject
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     # command: ["sh", "-c", "pip install debugpy -t /tmp && python /tmp/debugpy --wait-for-client --listen 0.0.0.0:5678 -m flask run --no-debugger --no-reload --host 0.0.0.0 --port 5000"]
+#     ports:
+#       - 5000:5000
+#       - 5678:5678
+#     volumes: 
+#       - ./:/usr/src/app
+#     environment:
+#       - FLASK_APP=cashman/index.py
+#       - FLASK_ENV=development
