@@ -1,7 +1,3 @@
-https://auth0.com/blog/developing-restful-apis-with-python-and-flask/
-
-https://www.thorsten-hans.com/how-to-run-commands-in-stopped-docker-containers/
-
 Why Python?
 Nowadays, choosing Python to develop applications is becoming a very popular choice. As StackOverflow recently analyzed, Python is one of the fastest-growing programming languages, having surpassed even Java on the number of questions asked on the platform. On GitHub, the language shows signs of mass adoption as well, occupying the third position on the number of opened Pull Requests in 2016.
 
@@ -505,3 +501,8 @@ Internationalization (i18n)
 Security with JWTs
 Stay tuned!
 
+
+
+https://auth0.com/blog/developing-restful-apis-with-python-and-flask/
+
+https://www.thorsten-hans.com/how-to-run-commands-in-stopped-docker-containers/
